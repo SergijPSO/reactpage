@@ -5,7 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import News from './components/News'
 import Contacts from './components/Contacts'
-import {BrowserRouter as  Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as  Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
