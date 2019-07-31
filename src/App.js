@@ -11,11 +11,11 @@ function App() {
   return (
  
     <div>
-      <Router>
+      <Router basename='/'>
         <Header />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/home' exact component={Home} />
+          <Route path='/home' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/news' component={News} />
           <Route path='/contacts' component={Contacts} />
